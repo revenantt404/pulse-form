@@ -1,0 +1,131 @@
+<!doctype html>
+<!-- PULSE/FORM — designed & built by developer K -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#141311" />
+  <meta name="description" content="PULSE/FORM — a two-day collision of sound, image, and ideas in Jakarta." />
+  <meta name="author" content="developer K" />
+  <title>PULSE/FORM — Jakarta 2027</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-core">
+      <div class="preloader-brand">PULSE<span>/</span>FORM</div>
+      <div class="preloader-meter"><span id="preloaderMeter"></span></div>
+      <div class="preloader-meta"><span id="preloaderStatus">Tuning the signal</span><span id="preloaderCount">00</span></div>
+    </div>
+  </div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="PULSE/FORM home"><span>PULSE</span><i>/</i><span>FORM</span><b>’27</b></a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#lineup"><small>01</small>Lineup</a>
+        <a href="#schedule"><small>02</small>Schedule</a>
+        <a href="#field-guide"><small>03</small>Field guide</a>
+      </nav>
+      <div class="nav-right">
+        <span class="live-pill"><i></i> Jakarta / ID</span>
+        <a class="nav-ticket" href="#tickets">Tickets <span>↗</span></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-width">
+      <div class="hero-meta reveal"><span>Volume 01</span><span>2 days / 4 rooms / 1 signal</span></div>
+      <div class="hero-copy reveal reveal-delay-1">
+        <div class="eyebrow"><span class="eyebrow-line"></span>Jakarta's new culture signal</div>
+        <h1>The city<br />has a <em>frequency.</em></h1>
+        <p>A two-day collision of live sound, moving image, and the people pushing culture somewhere new.</p>
+        <div class="hero-actions"><a class="button button-acid" href="#lineup">Meet the signal <span>↓</span></a><a class="plain-link" href="#field-guide">What's this? <span>↗</span></a></div>
+      </div>
+      <div class="hero-art reveal reveal-delay-2" aria-label="PULSE/FORM event artwork">
+        <div class="art-scanlines"></div><div class="art-arc arc-a"></div><div class="art-arc arc-b"></div><div class="art-orb"></div>
+        <div class="art-word art-word-top">PULSE</div><div class="art-word art-word-bottom">FORM</div>
+        <div class="art-coordinates">06°10′S<br />106°49′E</div><div class="art-caption">A live experiment<br />in being here</div><div class="art-theme-badge"><span>Theme / 01</span><strong>Culture<br /><em>Festival</em></strong><small>Sound + image + ideas</small></div><div class="art-mark">PF<span>27</span></div>
+      </div>
+      <div class="hero-date reveal reveal-delay-3"><div class="date-context"><span>Event 01</span><strong>Culture<br />Festival</strong></div><div class="date-block"><strong>21—22</strong><span>March<br />2027</span></div><div class="date-rule"></div><div class="location-block"><span>Warehouse 9<br />Kemayoran, Jakarta</span><span class="arrow-round">→</span></div></div>
+      <div class="hero-scroll reveal reveal-delay-3"><span class="scroll-mark">↓</span><span>Scroll into the signal</span></div>
+    </section>
+
+    <div class="ticker" aria-label="PULSE/FORM live signals">
+      <div class="ticker-lead"><span class="ticker-pulse"></span><strong>Live signal</strong><small>PF / 01</small></div>
+      <div class="ticker-window"><div class="ticker-track"><span class="ticker-word ticker-heavy">Live sound</span><b>✳</b><span class="ticker-word ticker-outline">Moving image</span><b>✳</b><span class="ticker-word ticker-serif">Late conversations</span><b>✳</b><span class="ticker-word ticker-heavy">New rituals</span><b>✳</b><span class="ticker-word ticker-heavy">Live sound</span><b>✳</b><span class="ticker-word ticker-outline">Moving image</span><b>✳</b><span class="ticker-word ticker-serif">Late conversations</span><b>✳</b><span class="ticker-word ticker-heavy">New rituals</span><b>✳</b></div></div>
+      <div class="ticker-tail"><span>04 rooms</span><span>02 days</span><i>→</i></div>
+    </div>
+
+    <section class="manifesto section-width reveal" id="field-guide">
+      <div class="section-marker"><span>01</span><span>Field guide / 2027</span></div>
+      <div class="manifesto-grid"><h2>Not another<br /><em>festival.</em></h2><div class="manifesto-copy"><p>PULSE/FORM is a live study of what happens when music, art, and technology stop staying in their lanes.</p><p>Come for the set. Stay for the strange, generous conversations in between. Leave with a different signal in your head.</p><a class="plain-link" href="#tickets">Read the field guide <span>↗</span></a></div></div>
+      <div class="manifesto-stamp"><span>PF</span><small>VOL. 01<br />JKT / 27</small></div>
+    </section>
+
+    <section class="lineup section-width" id="lineup">
+      <div class="section-head reveal"><div><div class="eyebrow"><span class="eyebrow-line"></span>Who is transmitting</div><h2>The <em>lineup.</em></h2></div><p>Two days. Four rooms. One carefully tuned frequency.</p></div>
+      <div class="filter-bar reveal reveal-delay-1" role="group" aria-label="Filter lineup"><button class="filter-btn active" data-filter="all" type="button">All <span>08</span></button><button class="filter-btn" data-filter="live" type="button">Live <span>04</span></button><button class="filter-btn" data-filter="visual" type="button">Visual <span>02</span></button><button class="filter-btn" data-filter="afterdark" type="button">After dark <span>02</span></button></div>
+      <div class="artist-grid">
+        <article class="artist-card reveal" data-type="live"><div class="artist-visual artist-saturn"><span class="artist-tag">Live / Room A</span><div class="saturn-planet"></div><div class="saturn-ring"></div><span class="artist-no">01</span></div><div class="artist-info"><div><span class="artist-name">Kirana<br /><em>Index</em></span><span class="artist-genre">Electronic / Jakarta</span></div><span class="artist-arrow">↗</span></div></article>
+        <article class="artist-card reveal reveal-delay-1" data-type="visual"><div class="artist-visual artist-prism"><span class="artist-tag">Visual / Dome</span><div class="prism-shape"></div><div class="prism-glow"></div><span class="artist-no">02</span></div><div class="artist-info"><div><span class="artist-name">Mira<br /><em>Onda</em></span><span class="artist-genre">Moving image / Manila</span></div><span class="artist-arrow">↗</span></div></article>
+        <article class="artist-card reveal reveal-delay-2" data-type="live"><div class="artist-visual artist-flora"><span class="artist-tag">Live / Room B</span><div class="flora-sun"></div><div class="flora-stem stem-a"></div><div class="flora-stem stem-b"></div><div class="flora-stem stem-c"></div><span class="artist-no">03</span></div><div class="artist-info"><div><span class="artist-name">Biru<br /><em>Langit</em></span><span class="artist-genre">Ambient / Bandung</span></div><span class="artist-arrow">↗</span></div></article>
+        <article class="artist-card reveal reveal-delay-3" data-type="afterdark"><div class="artist-visual artist-mono"><span class="artist-tag">After dark / 02:00</span><div class="mono-letter">X</div><div class="mono-orbit"></div><span class="artist-no">04</span></div><div class="artist-info"><div><span class="artist-name">Soft<br /><em>Crash</em></span><span class="artist-genre">Club / Singapore</span></div><span class="artist-arrow">↗</span></div></article>
+        <article class="artist-card reveal" data-type="live"><div class="artist-visual artist-dune"><span class="artist-tag">Live / Room A</span><div class="dune-sun"></div><div class="dune-wave wave-a"></div><div class="dune-wave wave-b"></div><span class="artist-no">05</span></div><div class="artist-info"><div><span class="artist-name">Ruang<br /><em>Hening</em></span><span class="artist-genre">Post-rock / Yogyakarta</span></div><span class="artist-arrow">↗</span></div></article>
+        <article class="artist-card reveal reveal-delay-1" data-type="visual"><div class="artist-visual artist-wire"><span class="artist-tag">Visual / Screen 3</span><div class="wire-field"></div><div class="wire-dot"></div><span class="artist-no">06</span></div><div class="artist-info"><div><span class="artist-name">Nadia<br /><em>Frame</em></span><span class="artist-genre">Generative art / Seoul</span></div><span class="artist-arrow">↗</span></div></article>
+        <article class="artist-card reveal reveal-delay-2" data-type="afterdark"><div class="artist-visual artist-red"><span class="artist-tag">After dark / 00:30</span><div class="red-signal">01<br /><i>00</i><br />11</div><div class="red-circle"></div><span class="artist-no">07</span></div><div class="artist-info"><div><span class="artist-name">Dusk<br /><em>Unit</em></span><span class="artist-genre">Bass / Kuala Lumpur</span></div><span class="artist-arrow">↗</span></div></article>
+        <article class="artist-card reveal reveal-delay-3" data-type="live"><div class="artist-visual artist-silver"><span class="artist-tag">Live / Room B</span><div class="silver-shape"></div><div class="silver-type">∞</div><span class="artist-no">08</span></div><div class="artist-info"><div><span class="artist-name">Tiga<br /><em>Ruang</em></span><span class="artist-genre">Jazz / Jakarta</span></div><span class="artist-arrow">↗</span></div></article>
+      </div>
+    </section>
+
+    <section class="schedule section-width" id="schedule">
+      <div class="section-head reveal"><div><div class="eyebrow"><span class="eyebrow-line"></span>Find your way through</div><h2>Two days,<br /><em>your rhythm.</em></h2></div><p>Different rooms, different tempo. Follow the sound or make your own route.</p></div>
+      <div class="day-tabs reveal reveal-delay-1"><button class="day-tab active" data-day="day-one" type="button"><span>Day 01</span><strong>Saturday, 21 March</strong></button><button class="day-tab" data-day="day-two" type="button"><span>Day 02</span><strong>Sunday, 22 March</strong></button></div>
+      <div class="schedule-board reveal reveal-delay-2" data-schedule="day-one">
+        <div class="schedule-row"><time>16:00</time><div><strong>Doors / first light</strong><span>Open air yard</span></div><b>—</b></div>
+        <div class="schedule-row"><time>17:30</time><div><strong>Kirana Index</strong><span>Room A / Live set</span></div><b>01</b></div>
+        <div class="schedule-row"><time>19:00</time><div><strong>Soft Architecture</strong><span>Dome / Film loop</span></div><b>02</b></div>
+        <div class="schedule-row"><time>20:30</time><div><strong>Biru Langit</strong><span>Room B / Live set</span></div><b>03</b></div>
+        <div class="schedule-row"><time>22:00</time><div><strong>Late table: Who owns the night?</strong><span>Forum / Conversation</span></div><b>04</b></div>
+        <div class="schedule-row"><time>00:30</time><div><strong>Dusk Unit</strong><span>Room A / After dark</span></div><b>05</b></div>
+      </div>
+      <div class="schedule-board is-hidden" data-schedule="day-two">
+        <div class="schedule-row"><time>15:00</time><div><strong>Sunday assembly</strong><span>Open air yard</span></div><b>—</b></div>
+        <div class="schedule-row"><time>16:30</time><div><strong>Nadia Frame</strong><span>Screen 3 / Live visual</span></div><b>01</b></div>
+        <div class="schedule-row"><time>18:00</time><div><strong>Ruang Hening</strong><span>Room A / Live set</span></div><b>02</b></div>
+        <div class="schedule-row"><time>20:00</time><div><strong>Open signal workshop</strong><span>Studio / Hands-on</span></div><b>03</b></div>
+        <div class="schedule-row"><time>21:30</time><div><strong>Tiga Ruang</strong><span>Room B / Live set</span></div><b>04</b></div>
+        <div class="schedule-row"><time>23:45</time><div><strong>Last transmission</strong><span>All rooms / Closing</span></div><b>05</b></div>
+      </div>
+      <p class="schedule-note"><span>↳</span> Timings are subject to the beautiful chaos of live events.</p>
+    </section>
+
+    <section class="venue section-width reveal">
+      <div class="venue-art"><div class="venue-grid"></div><div class="venue-block block-main"><span>WAREHOUSE 9</span><b>MAIN<br />HALL</b></div><div class="venue-block block-dome"><span>02</span><b>DOME</b></div><div class="venue-block block-yard"><span>03</span><b>OPEN<br />YARD</b></div><div class="venue-block block-forum"><span>04</span><b>FORUM</b></div><div class="venue-pin pin-a">A</div><div class="venue-pin pin-b">B</div><div class="venue-pin pin-c">C</div><div class="venue-label">Kemayoran<br />Creative District</div></div>
+      <div class="venue-copy"><div class="eyebrow"><span class="eyebrow-line"></span>Where the signal lands</div><h2>Inside<br /><em>Warehouse 9.</em></h2><p>An old industrial shell turned temporary playground. Four rooms, one courtyard, and just enough room to get lost.</p><div class="venue-details"><span><b>021</b> 10 minutes from JIEXPO</span><span><b>04</b> rooms under one roof</span><span><b>01</b> suspiciously good coffee bar</span></div><a class="plain-link" href="#tickets">Plan your arrival <span>↗</span></a></div>
+    </section>
+
+    <section class="tickets section-width" id="tickets">
+      <div class="section-head reveal"><div><div class="eyebrow"><span class="eyebrow-line"></span>Choose your frequency</div><h2>Tickets that<br /><em>make sense.</em></h2></div><p>No velvet ropes. No mystery fees at the end. Just a good weekend waiting to happen.</p></div>
+      <div class="ticket-grid reveal reveal-delay-1">
+        <article class="ticket-card"><div class="ticket-top"><span>01 / Day pass</span><span>Saturday</span></div><div class="ticket-name">One day<br /><em>only.</em></div><div class="ticket-price"><span>Rp</span> 275K</div><ul><li>Access to all rooms</li><li>Day one / 16:00—late</li><li>Digital field guide</li></ul><button class="ticket-button" type="button" data-ticket="Day one pass">Get this pass <span>↗</span></button></article>
+        <article class="ticket-card ticket-featured"><div class="ticket-top"><span>02 / Full signal</span><span>Best value</span></div><div class="ticket-name">Both days<br /><em>inside.</em></div><div class="ticket-price"><span>Rp</span> 450K</div><ul><li>Access to all rooms</li><li>Saturday + Sunday</li><li>Priority forum seating</li></ul><button class="ticket-button" type="button" data-ticket="Full signal pass">Get this pass <span>↗</span></button><div class="ticket-star">✳</div></article>
+        <article class="ticket-card"><div class="ticket-top"><span>03 / Good company</span><span>4 people</span></div><div class="ticket-name">Bring<br /><em>the crew.</em></div><div class="ticket-price"><span>Rp</span> 1.5M</div><ul><li>4 full signal passes</li><li>Priority entry lane</li><li>Backstage field notes</li></ul><button class="ticket-button" type="button" data-ticket="Crew pass">Get this pass <span>↗</span></button></article>
+      </div>
+      <div class="ticket-foot reveal"><span>Limited early signals available until 31 January 2027.</span><a href="mailto:hello@pulseform.id">Questions? hello@pulseform.id ↗</a></div>
+    </section>
+
+    <section class="closing section-width reveal"><div class="closing-mark">PF<span>27</span></div><p>See you<br /><em>on the other side.</em></p><div class="closing-coordinates">21—22 / 03 / 2027<br />JAKARTA, ID</div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="brand" href="#top"><span>PULSE</span><i>/</i><span>FORM</span><b>’27</b></a><p>A live experiment in sound,<br />image, and being here.</p><div class="social-links"><a href="#top">Instagram ↗</a><a href="#top">Spotify ↗</a><a href="mailto:hello@pulseform.id">Contact ↗</a></div></div><div class="footer-bottom"><span>© PULSE/FORM 2027 · Designed &amp; built by developer K</span><span>Made for the curious</span><a href="#top">Back to top ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Your signal is locked.</div>
+  <script src="script.js"></script>
+</body>
+</html>
