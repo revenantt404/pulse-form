@@ -2,6 +2,9 @@
 
 Designed & built by **developer K**.
 
+**Live Demo:** https://pulse-form-mu.vercel.app  
+**Repository:** https://github.com/revenantt404/pulse-form
+
 A fictional culture festival website concept built as a front-end showcase. It is intentionally framed as a real project / event brand rather than a personal portfolio.
 
 ## Concept
